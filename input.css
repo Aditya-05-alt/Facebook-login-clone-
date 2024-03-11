@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+
+.para{
+  @apply  font-serif justify-end text-red-300 bg-yellow-200
+}
+.btn{
+  @apply bg-black text-white p-2 
+  border rounded-lg 
+  hover:bg-gray-700
+  justify-center
+}
+
+
+@tailwind utilities;
